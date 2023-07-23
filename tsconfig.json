@@ -1,0 +1,13 @@
+// Possui as configurações básicas do compilador //
+// Deixá-lo vazio será aplicado as configurações básicas do compilador //
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "typeRoots": [ // Série de caminhos indicando onde sua definição de tipo estará
+           "node_modules/@types"
+        ]
+    }
+}
